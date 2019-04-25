@@ -15,6 +15,7 @@
 		58F7D0E92271AADA004B884D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7D0E82271AADA004B884D /* main.m */; };
 		58F7D0F42271AAF9004B884D /* ONPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7D0F22271AAF9004B884D /* ONPagedFlowView.m */; };
 		58F7D0F52271AAF9004B884D /* ONImageSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F7D0F32271AAF9004B884D /* ONImageSubview.m */; };
+		58F7D0F72271B114004B884D /* pagedFlow.mov in Resources */ = {isa = PBXBuildFile; fileRef = 58F7D0F62271B114004B884D /* pagedFlow.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		58F7D0F12271AAF9004B884D /* ONImageSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONImageSubview.h; sourceTree = "<group>"; };
 		58F7D0F22271AAF9004B884D /* ONPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONPagedFlowView.m; sourceTree = "<group>"; };
 		58F7D0F32271AAF9004B884D /* ONImageSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONImageSubview.m; sourceTree = "<group>"; };
+		58F7D0F62271B114004B884D /* pagedFlow.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pagedFlow.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		58F7D0D82271AAD9004B884D /* ONPagedFlowView */ = {
 			isa = PBXGroup;
 			children = (
+				58F7D0F62271B114004B884D /* pagedFlow.mov */,
 				58F7D0EF2271AAF9004B884D /* ONPagedFlowView */,
 				58F7D0D92271AAD9004B884D /* AppDelegate.h */,
 				58F7D0DA2271AAD9004B884D /* AppDelegate.m */,
@@ -148,6 +151,7 @@
 			files = (
 				58F7D0E62271AADA004B884D /* LaunchScreen.storyboard in Resources */,
 				58F7D0E32271AADA004B884D /* Assets.xcassets in Resources */,
+				58F7D0F72271B114004B884D /* pagedFlow.mov in Resources */,
 				58F7D0E12271AAD9004B884D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -62,8 +62,6 @@ blue:((float)(hexValue & 0xFF))/255.0 alpha:1.0]
 }
 
 - (void)setupUI {
-	//    self.automaticallyAdjustsScrollViewInsets = NO;
-	
 	ONPagedFlowView *pageFlowView = [[ONPagedFlowView alloc] initWithFrame:CGRectMake(0, kTitleViewHeight, K_Width,  K_Width / 375 * 154)];
 	pageFlowView.delegate = self;
 	pageFlowView.dataSource = self;
